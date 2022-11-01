@@ -18,6 +18,11 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
+  devServer: {
+    proxy: {
+      '/api/users': 'http://localhost:1234',
+    },
+  },
   // defines which modules are used and for what file types
   module: {
     rules: [

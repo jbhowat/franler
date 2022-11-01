@@ -1,14 +1,12 @@
+/* eslint-disable import/extensions */
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
+import Users from './User.jsx';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello world, I am Franler!</h1>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Users />
+  );
 }
 
 export default App;
