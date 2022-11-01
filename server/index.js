@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
@@ -17,7 +18,7 @@ mongoose.connect(MONGO_URI, {
 const users = require('./routes/users');
 const api = require('./routes/api');
 
-//app.use('/api/users', users);
+// app.use('/api/users', users);
 
 app.use('/api', api);
 // app.get('/api', (req, res) => {
@@ -25,6 +26,7 @@ app.use('/api', api);
 // });
 
 // global error handler route
+// eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {
   const defaultErr = {
     log: 'Express error handler caught unknown middleware error',

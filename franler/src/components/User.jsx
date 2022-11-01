@@ -19,7 +19,7 @@ class Users extends Component {
 
   render() {
     return (
-      <ul>
+      <ul id="users">
         {
           this.state.users.map((user) => (
             <li>
