@@ -1,4 +1,4 @@
-![FRANLER](franler/assets/logo-no-background.png) 
+![FRANLER](./assets/logo-no-background.png) 
 
 ## What is FRANLER?
 
