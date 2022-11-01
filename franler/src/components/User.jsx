@@ -24,11 +24,14 @@ class Users extends Component {
           this.state.users.map((user) => (
             <li>
               Username:
-              {' '}
               {user.username}
-              , Age:
+              ,
+              First Name:
+              {user.firstname}
+              ,
+              Last Name:
               {' '}
-              {user.age}
+              {user.lastname}
             </li>
           ))
         }
