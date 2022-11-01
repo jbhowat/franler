@@ -5,11 +5,11 @@
 ---
 
 ## What is FRANLER?
-### Franler is a way for groups of friends to collaborate and decide on plans!
+Franler is a way for groups of friends to collaborate and decide on plans!
 
 ---
 ## What does the name Franler mean? Kind of a weird name....
-### Franler is a portmanteau which stands for "Friends Ranked Poll Planner"
+Franler is a portmanteau which stands for "Friends Ranked Poll Planner"
 
 ---
 More to come :)
