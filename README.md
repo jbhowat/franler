@@ -14,5 +14,9 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 ---
 
 ## Initial Project Brief
-initi
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jbhowat/franler/main/assets/FRANLER%20-%20Initial%20Project%20Brief.png" alt="project brief table" style="width:400px;"/>
+</div>
+
 
