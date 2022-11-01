@@ -31,7 +31,7 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 
 1458 - Spun up mongoDB server on Atlas Cloud service. Installed mongoose and linked backend to the database. Added dummy data to the database using MongoDB Compass. Was able to retrieve that data and pass it all the way to the front end. The R in CRUD now works at its most basic level. C, U, and D are next.
 
-1535 - Beginning to work on a structure for my React app using Excallidraw. 
+1535 - Beginning to work on a structure for my React app using Excallidraw. Added signup component to evnetually Create new users. Added CSS Styling. Tech-Talk and dinner break.
 
 
 
