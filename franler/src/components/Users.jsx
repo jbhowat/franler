@@ -1,6 +1,8 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 
+//! This component is just for testing right now, eventually it will be deleted.
+
 class Users extends Component {
   constructor(props) {
     super(props);

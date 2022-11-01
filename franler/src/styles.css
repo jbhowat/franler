@@ -1,3 +1,7 @@
 #signup {
   border: 1px solid red;
 }
+/* users tag is just for testing */
+#users {
+  background-color: dimgrey;
+}
