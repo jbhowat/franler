@@ -4,7 +4,7 @@
 
 ---
 
-## What is FRANLER?
+# What is FRANLER?
 Franler is a way for groups of friends to collaborate and decide on plans!
 
 ---
