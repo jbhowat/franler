@@ -18,7 +18,8 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot"
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
