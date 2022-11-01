@@ -1,4 +1,4 @@
-<div align="center">
+<div style=" background-image: linear-gradient(to left, #ffffff, #d7d5e1, #b0adc3, #8a86a6, #65618a, #343365, #343365, #343365, #343365, #343365, #343365, #343365, #65618a, #8a86a6, #b0adc3, #d7d5e1, #ffffff);" align="center">
   <img src="https://raw.githubusercontent.com/jbhowat/franler/main/franler/assets/logo-color.png" alt="FRANLER" style="width:400px;"/>
 </div>
 
