@@ -1,7 +1,5 @@
-const express = require('express');
 const mongoose = require('mongoose');
 
-const app = express();
 const MONGO_URI = 'mongodb+srv://admin_jbhowat:franlersoloproject@franlercluster0.nukjaqx.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connect(MONGO_URI, {
@@ -12,12 +10,14 @@ mongoose.connect(MONGO_URI, {
   .then(() => console.log('Connected to MongoDB.'))
   .catch((err) => console.log(err));
 
-const users = require('./routes/users');
+const { Schema } = mongoose;
 
-app.use('/api/users', users);
-
-app.get('/api', (req, res) => {
-  res.send('hello world from Express');
+const userSchema = new Schema({
+  username: String,
+  firstName: String,
+  lastName: String,
 });
 
-app.listen(1234);
+const User = mongoose.model('user', userSchema);
+
+module.exports = { User };
