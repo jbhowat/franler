@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
       <SignUp />
-      <Users />
     </div>
   );
 }
