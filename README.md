@@ -53,4 +53,4 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 
 1625 - After working some more and a break for Senior Reinforcement Project Presentations, I now have the ability to generate poll documents using Postman. Next goal is to try to get the same functionality through the front end. Feels like Deja Vu, hopefully I won't hit the same roadblocks with it as I did this AM / I will now know how to overcome them.
 
-1708 - Successfully creating new polls in the DB using a basic front end form. Figured out how to reset the state on the forms so that they clear when you hit create.
+1708 - Successfully creating new polls in the DB using a basic front end form. Figured out how to reset the state on the forms so that they clear when you hit create. Next I will try to make a component under the create poll component in order to show each poll. 
