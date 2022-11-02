@@ -1,11 +1,15 @@
 /* eslint-disable no-console */
 const express = require('express');
+const path = require('path');
 
 const app = express();
 
 const api = require('./routes/api');
 
 const PORT = 1234;
+
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
 app.use('/api', api);
 

@@ -33,8 +33,8 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 
 1535 - Beginning to work on a structure for my React app using Excallidraw. Added signup component to evnetually Create new users. Added CSS Styling. Tech-Talk and dinner break.
 
-1645 - Cleaned up a few bits of redudant code and bits that were just in place for testing, beginnging to work on the ability to create a new user in the database.
+1645 - Cleaned up a few bits of redudant code and bits that were just in place for testing, beginning to work on the ability to create a new user in the database.
 
-
+1837 - After a bunch of work I've made a front end form that makes a POST request. Starting to work on routing that to the database and then I will probably call it quits for the night. 
 
 
