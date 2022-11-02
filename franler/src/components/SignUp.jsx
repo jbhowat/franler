@@ -13,14 +13,28 @@ function SignUp() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Fetch');
-    fetch('http://localhost:1234/api/users', {
+    let res = fetch('http://localhost:1234/api/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify([teststring]),
+      body: JSON.stringify([{
+        username,
+        password,
+        firstname,
+        lastname,
+      }]),
     });
+    let resJSON = await res.JSON();
+    if (res.status === 200) {
+      setUsername('');
+      setPassword('');
+      setFirstName('');
+      setLastName('');
+      setMessage('User created successfully');
+    } else {
+      setMessage('Some error occured');
+    }
   };
 
   return (
