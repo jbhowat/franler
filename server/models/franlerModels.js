@@ -8,7 +8,7 @@ mongoose.connect(MONGO_URI, {
   useUnifiedTopology: true,
   dbName: 'franlerDB',
 })
-  .then(() => console.log('Server connected to MongoDB in franlerModels'))
+  .then(() => console.log('Server Connected to MongoDB in franlerModels'))
   .catch((err) => console.log(err));
 
 const { Schema } = mongoose;

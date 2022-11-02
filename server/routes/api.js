@@ -9,8 +9,8 @@ router.get('/users', userController.getUsers, (req, res) => {
 });
 
 router.post('/users', (req, res) => {
-  res.sendStatus(200);
   console.log(req.body);
+  res.sendStatus(200);
 });
 
 module.exports = router;

@@ -8,30 +8,17 @@ function SignUp() {
   const [lastname, setLastName] = useState('');
   const [message, setMessage] = useState('');
 
+  const teststring = 'hello from React';
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      const res = await fetch('http://localhost:1234/api/users', {
-        method: 'POST',
-        body: JSON.stringify({
-          username,
-          password,
-          firstname,
-          lastname,
-        }),
-      });
-      const resJSON = await res.json();
-      if (res.status === 200) {
-        setUsername('');
-        setFirstName('');
-        setLastName('');
-        setMessage('User created successfully');
-      } else {
-        setMessage('An error occured!');
-      }
-    } catch (err) {
-      console.log(err);
-    }
+    console.log('Fetch');
+    fetch('http://localhost:1234/api/users', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(["TEST"]),
+    });
   };
 
   return (
