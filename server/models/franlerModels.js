@@ -15,10 +15,47 @@ const { Schema } = mongoose;
 
 const userSchema = new Schema({
   username: String,
+  password: String,
   firstName: String,
   lastName: String,
+  polls: [{
+    id: {
+      type: Schema.Types.ObjectId,
+      ref: 'poll',
+    },
+  }],
 });
 
 const User = mongoose.model('user', userSchema);
 
-module.exports = { User };
+const pollSchema = new Schema({
+  option1: {
+    option: String,
+    points: Number,
+  },
+  option2: {
+    option: String,
+    points: Number,
+  },
+  option3: {
+    option: String,
+    points: Number,
+  },
+  option4: {
+    option: String,
+    points: Number,
+  },
+  option5: {
+    option: String,
+    points: Number,
+  },
+  option6: {
+    option: String,
+    points: Number,
+  },
+  endtime: Number,
+});
+
+const Poll = mongoose.model('poll', pollSchema);
+
+module.exports = { User, Poll };

@@ -9,6 +9,7 @@ function SignUp() {
   const [message, setMessage] = useState('');
 
   const teststring = 'hello from React';
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log('Fetch');
@@ -17,7 +18,7 @@ function SignUp() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(["TEST"]),
+      body: JSON.stringify([teststring]),
     });
   };
 
