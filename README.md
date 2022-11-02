@@ -45,4 +45,10 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 
 1103 - Alright, I can now create a user in my database using Postman to call to the server. Next I will try to capture the same data in a form and pass it into the db.
 
-1138 - YUSSSS! The front end sign up form is now passing information into the database. 
+1138 - YUSSSS! The front end sign up form is now passing information into the database.
+
+1230 - Feeling super frustrated and thinking I am not making any progress at this point. I took a long walk and a break from thinking about coding. 
+
+1430 - Back from a nice break, walk, lunch, watching some mindless TV to get my mind clear and stop being frustrated withh having to downscale the scope. Still feeling a little disappointed that time is getting short and so I have scaled back the scope of the project. My goal now is just to get an even more minimal MVP. That means I will spend the rest of tonight trying to get a way to add options to a poll and then having the polls display and hopefully tally votes. No users or anything like that. I'd like to extend the project and make it so that polls are private but I think at this point that just isn't going to happen.
+
+1625 - After working some more and a break for Senior Reinforcement Project Presentations, I now have the ability to generate poll documents using Postman. Next goal is to try to get the same functionality through the front end. Feels like Deja Vu, hopefully I won't hit the same roadblocks with it as I did this AM / I will now know how to overcome them. 
