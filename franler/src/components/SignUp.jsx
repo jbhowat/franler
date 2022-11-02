@@ -9,8 +9,6 @@ function SignUp() {
   const [lastname, setLastName] = useState('');
   const [message, setMessage] = useState('');
 
-  const teststring = 'hello from React';
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     let res = fetch('http://localhost:1234/api/users', {
