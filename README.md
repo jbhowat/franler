@@ -42,3 +42,5 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 0700 - Started working on where I got stuck last night, trying to pass something, anything, front front-end to the server. Spent a lot of time on this and was alternating between CORS errors and 400's and ultimately I think it came down to having my data parsed the right way and telling the server what format it would be in. 
 
 0947 - With the previous block now overcome, I'm going to continue with trying to send data from the front end and getting it onto the server. 
+
+1103 - Alright, I can now create a user in my database using Postman to call to the server. Next I will try to capture the same data in a form and pass it into the db.
