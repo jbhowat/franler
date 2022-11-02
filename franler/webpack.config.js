@@ -20,7 +20,7 @@ module.exports = {
   ],
   devServer: {
     proxy: {
-      '/api/users': 'http://localhost:1234',
+      '/api/poll': 'http://localhost:1234',
     },
   },
   // defines which modules are used and for what file types

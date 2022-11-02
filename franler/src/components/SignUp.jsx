@@ -7,11 +7,10 @@ function SignUp() {
   const [password, setPassword] = useState('');
   const [firstname, setFirstName] = useState('');
   const [lastname, setLastName] = useState('');
-  const [message, setMessage] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let res = fetch('http://localhost:1234/api/users', {
+    fetch('http://localhost:1234/api/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -23,16 +22,6 @@ function SignUp() {
         lastname,
       }]),
     });
-    let resJSON = await res.JSON();
-    if (res.status === 200) {
-      setUsername('');
-      setPassword('');
-      setFirstName('');
-      setLastName('');
-      setMessage('User created successfully');
-    } else {
-      setMessage('Some error occured');
-    }
   };
 
   return (
@@ -64,7 +53,6 @@ function SignUp() {
           onChange={(e) => setLastName(e.target.value)}
         />
         <button type="submit">Sign Up</button>
-        <div className="message">{message ? <p>{message}</p> : null}</div>
       </form>
     </div>
   );

@@ -13,49 +13,31 @@ mongoose.connect(MONGO_URI, {
 
 const { Schema } = mongoose;
 
-const userSchema = new Schema({
-  username: String,
-  password: String,
-  firstname: String,
-  lastname: String,
-  polls: [{
-    id: {
-      type: Schema.Types.ObjectId,
-      ref: 'poll',
-    },
-  }],
-});
-
-const User = mongoose.model('user', userSchema);
+//! due to scaling down of scope, userSchema is not used and also not exported!
+// const userSchema = new Schema({
+//   username: String,
+//   password: String,
+//   firstname: String,
+//   lastname: String,
+//   polls: [{
+//     id: {
+//       type: Schema.Types.ObjectId,
+//       ref: 'poll',
+//     },
+//   }],
+// });
+// const User = mongoose.model('user', userSchema);
 
 const pollSchema = new Schema({
-  option1: {
-    option: String,
-    points: Number,
-  },
-  option2: {
-    option: String,
-    points: Number,
-  },
-  option3: {
-    option: String,
-    points: Number,
-  },
-  option4: {
-    option: String,
-    points: Number,
-  },
-  option5: {
-    option: String,
-    points: Number,
-  },
-  option6: {
-    option: String,
-    points: Number,
-  },
-  endtime: Number,
+  title: String,
+  option1: String,
+  option2: String,
+  option3: String,
+  option4: String,
+  option5: String,
+  option6: String,
 });
 
 const Poll = mongoose.model('poll', pollSchema);
 
-module.exports = { User, Poll };
+module.exports = { Poll };

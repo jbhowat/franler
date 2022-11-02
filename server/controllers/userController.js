@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const models = require('../models/franlerModels');
 
 const userController = {};
