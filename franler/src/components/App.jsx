@@ -2,11 +2,17 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import CreatePoll from './CreatePoll.jsx';
+import PollsDisplay from './PollsDisplay.jsx';
 
 function App() {
   return (
     <div>
-      <CreatePoll />
+      <div>
+        <CreatePoll />
+      </div>
+      <div>
+        <PollsDisplay />
+      </div>
     </div>
   );
 }

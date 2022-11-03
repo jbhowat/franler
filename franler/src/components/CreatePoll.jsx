@@ -38,52 +38,59 @@ function CreatePoll() {
   };
 
   return (
-    <div id="createpoll">
-      Create a new poll:
-      <form onSubmit={handleSubmit}>
+    <div id="createPollContainer">
+      Add a new poll:
+      <form onSubmit={handleSubmit} id="createPoll">
         <input
+          className="createPollInput"
           type="text"
           value={title}
           placeholder="Poll Title"
           onChange={(e) => setTitle(e.target.value)}
         />
         <input
+          className="createPollInput"
           type="text"
           value={option1}
           placeholder="First Option (Required)"
           onChange={(e) => setOption1(e.target.value)}
         />
         <input
+          className="createPollInput"
           type="text"
           value={option2}
           placeholder="Second Option (Required)"
           onChange={(e) => setOption2(e.target.value)}
         />
         <input
+          className="createPollInput"
           type="text"
           value={option3}
           placeholder="Third Option"
           onChange={(e) => setOption3(e.target.value)}
         />
         <input
+          className="createPollInput"
           type="text"
           value={option4}
           placeholder="Fourth Option"
           onChange={(e) => setOption4(e.target.value)}
         />
         <input
+          className="createPollInput"
           type="text"
           value={option5}
           placeholder="Fifth Option"
           onChange={(e) => setOption5(e.target.value)}
         />
         <input
+          className="createPollInput"
           type="text"
           value={option6}
           placeholder="Sixth Option"
           onChange={(e) => setOption6(e.target.value)}
         />
-        <button type="submit">Create</button>
+        <button id="createButton" type="submit">Create</button>
       </form>
     </div>
   );

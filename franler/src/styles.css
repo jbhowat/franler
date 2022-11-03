@@ -5,3 +5,37 @@
 #users {
   background-color: dimgrey;
 }
+
+#createPollContainer {
+  border: 1px solid orange;
+}
+
+#createPoll {
+  border: 1px solid purple;
+  display: grid;
+  justify-content: center;
+  padding: 25px;
+}
+
+.createPollInput {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  width: 50vw;
+}
+
+#createButton {
+  width: 10vw;
+  justify-self: center;
+  padding: 5px;
+}
+
+.pollCard {
+  border: 1px solid red;
+}
+
+#pollContainer {
+  border: 3px solid teal;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
