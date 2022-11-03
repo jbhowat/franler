@@ -58,3 +58,9 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 1945 - Working on dynamically displaying cards, which will eventually have poll information. Did a little bit of css styling as well, some to help me visualize, and some to make it just not quite as uggo. 
 
 2208 - More styling in line with the color of my logo. Polls are showing up, but only on a reload. Heading to bed...
+
+## Dev Log - Day 3
+
+0800 - I began work, mostly on styling, colors, getting the logo to appear in the corner of the site, as well as some light and mostly tasteful animations. It is still sort of bare-bones looking but ehh. Design is not my thing for sure. 
+
+1107 - Satisfied with the basic styling, I am going to start to work on my stretch goals, which include: A header/footer to make it look like a real website, getting state to update the cards automatically when a new poll is submitted, a way to delete a poll from the front end, a way to vote on the front end and have that passed to the back end. I doubt I will get to many of thses but I know I won't get to my original stretch goals of user login functionality. 

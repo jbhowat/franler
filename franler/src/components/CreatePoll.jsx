@@ -39,8 +39,10 @@ function CreatePoll() {
 
   return (
     <div id="createPollContainer">
-      Add a new poll:
       <form onSubmit={handleSubmit} id="createPoll">
+        <div id="createPollInstructions">
+          Create a new Franler poll!
+        </div>
         <input
           className="createPollInput"
           type="text"

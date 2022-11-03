@@ -3,19 +3,66 @@
 }
 /* users tag is just for testing */
 body {
-  background-color: rgb(52, 51, 101);
+  background-image: linear-gradient(to bottom, #343365, #434272, #525180, #61608e, #71709c);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input:focus {
+  outline: #FF6599;
+  border-color: #FF6599;
+}
+#headerLogoContainer {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: 25px;
+  transition: transform 2s;
+}
+
+#headerLogoContainer:hover {
+  transform: rotateY(720deg);
+  transition-duration: 2s;
+}
+
+#headerLogo{
+
+}
+
+#topContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 #createPollContainer {
   border: 0px solid orange;
+  width: 300px;
+}
+
+#createPollInstructions {
+  justify-self: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #0F0E39;
+  font-size: larger;
+}
+
+#createPollInstructions:hover {
+  color: #FF6599;
 }
 
 #createPoll {
-  border: 0px solid purple;
+  background-color: #71709C;
   display: grid;
-  grid-template-columns: auto;
   justify-content: center;
-  padding: 25px;
+  padding: 20px;
+  min-width: 500px;
+  margin: 15px;
+  border-radius: 5px;
+  max-width: 400px;
+  min-height: 200;
+  box-shadow: 5px 5px 3px #0F0E39;
 }
 
 .createPollInput {
@@ -30,20 +77,53 @@ body {
   width: 10vw;
   justify-self: center;
   padding: 5px;
+  transition: 1s;
+  margin-top: 15px;
+  font-family: inherit;
+  border: 0;
+  border-radius: 5px;
+  background-color: #212054;
+  color: #FFFFFF;
+}
+
+#createButton:hover {
+  transform: scale(120%);
+  transition-duration: 0.5s;
+  color: #FF6599;
 }
 
 .pollCard {
-  background-color: rgb(155, 134, 206);
+  background-color: #71709C;
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
   max-width: 400px;
   min-height: 200;
+  box-shadow: 5px 5px 3px #0F0E39;
+  transition: transform 1s;
+}
+
+.pollCard:hover {
+  transform: rotateZ(0.75deg);
+  transition-duration: 1s;
+}
+
+.pollTitle {
+  color: #0F0E39;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.pollTitle:hover {
+  color: #FF6599;
 }
 
 .options {
-  border: 1px solid white;
   margin: 4px;
+  padding: 5px;
+  color: #0F0E39;
+  background-color: #9998B7;
+  border-radius: 5px;
 }
 
 #polls {
@@ -52,3 +132,19 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
 }
+
+/* COLOR PALLETE */
+
+
+/* 
+.color-primary-0 { color: #343365 } - primary/logo/background
+.color-primary-1 { color: #71709C } - lighter still
+.color-primary-2 { color: #4C4B7F } - lighter than background
+.color-primary-3 { color: #212054 } - darker than background
+.color-primary-4 { color: #0F0E39 } - darkest - text
+
+lightest - #9998B7
+logo pink - #FF6599
+
+Created using paletton.com
+*/
