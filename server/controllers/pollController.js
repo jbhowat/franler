@@ -6,7 +6,6 @@ const pollController = {};
 pollController.getPoll = (req, res, next) => {
   models.Poll.find({})
     .then((result) => {
-      console.log(result);
       res.locals.result = result;
       return next();
     })

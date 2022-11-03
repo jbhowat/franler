@@ -56,3 +56,5 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 1708 - Successfully creating new polls in the DB using a basic front end form. Figured out how to reset the state on the forms so that they clear when you hit create. Next I will try to make a component under the create poll component in order to show each poll.
 
 1945 - Working on dynamically displaying cards, which will eventually have poll information. Did a little bit of css styling as well, some to help me visualize, and some to make it just not quite as uggo. 
+
+2208 - More styling in line with the color of my logo. Polls are showing up, but only on a reload. Heading to bed...

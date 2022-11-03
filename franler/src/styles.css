@@ -1,27 +1,29 @@
 #signup {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 /* users tag is just for testing */
-#users {
-  background-color: dimgrey;
+body {
+  background-color: rgb(52, 51, 101);
 }
 
 #createPollContainer {
-  border: 1px solid orange;
+  border: 0px solid orange;
 }
 
 #createPoll {
-  border: 1px solid purple;
+  border: 0px solid purple;
   display: grid;
+  grid-template-columns: auto;
   justify-content: center;
   padding: 25px;
 }
 
 .createPollInput {
   padding: 5px;
+  justify-self: center;
   border-radius: 10px;
   margin: 5px;
-  width: 50vw;
+  min-width: 500px;
 }
 
 #createButton {
@@ -31,11 +33,22 @@
 }
 
 .pollCard {
-  border: 1px solid red;
+  background-color: rgb(155, 134, 206);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 400px;
+  min-height: 200;
 }
 
-#pollContainer {
-  border: 3px solid teal;
+.options {
+  border: 1px solid white;
+  margin: 4px;
+}
+
+#polls {
+  border: 0px solid teal;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
 }
