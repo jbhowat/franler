@@ -9,30 +9,63 @@ body {
   background-attachment: fixed;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+header {
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color:#71709C;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px #0F0E39;
+}
+
+#headerContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.loginInput {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#loginButton {
+  margin: 5px;
+  font-family: inherit;
+  border: 0;
+  border-radius: 5px;
+  background-color: #212054;
+  color: #FFFFFF;
+}
+
+#loginButton:hover {
+  transform: scale(120%);
+  transition-duration: 0.5s;
+  color: #FF6599;
+}
+
 input:focus {
   outline: #FF6599;
   border-color: #FF6599;
 }
 #headerLogoContainer {
   display: flex;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 200px;
   margin: 25px;
-  transition: transform 2s;
+  transition: transform 0.25s;
+  transition-timing-function: ease-in;
 }
 
 #headerLogoContainer:hover {
-  transform: rotateY(720deg);
-  transition-duration: 2s;
-}
-
-#headerLogo{
-
+  transform: scale(120%);
+  transition-duration: 0.5s;
 }
 
 #topContainer {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  margin-bottom: 50px;
 }
 
 #createPollContainer {

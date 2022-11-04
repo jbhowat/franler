@@ -40,7 +40,7 @@ class PollsDisplay extends Component {
       <div id="polls">
         {
           this.state.polls.map((poll, index) => (
-            <div key={index} className="pollCard">
+            <div key={Math.random(index)} className="pollCard">
               <div className="pollTitle">
                 {poll.title}
               </div>

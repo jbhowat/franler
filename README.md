@@ -21,6 +21,22 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 
 ---
 
+## Current Status and Goals
+
+This project was created in a only a couple of days as my first CRUD app. Franler is currently incomplete and on hold as I am immediately moving into future projects at Codesmith. 
+
+There are lots more things I would like to accomplish with it, however:
+
+-Update React state and hooks so that new cards appear without refreshing or redirecting
+-Update poll cards to show/take votes and also delete polls
+-Update schema and back end to handle recording votes
+-Update schema, back end, and front end to take a poll end time and have it automatically show as finished
+-Make login functional using OAuth.
+-Once login is working, be able to display only polls that are shared with a user
+-Deploy the site to Franler.com (which I now own)
+
+---
+
 ## Dev Log - Day 1
 
 0700 - Project begins. I started by setting up webpack, git, this readme, and an initial file structure. Went to logo.com to get a free basic set of logos for the project. I'm pretty pleased with the outcome. Ran into some issues with configuring webpack for .jsx files and making it all work but figured it out.
@@ -63,4 +79,6 @@ Franler is a portmanteau which stands for "Friends Ranked Poll Planner." *...and
 
 0800 - I began work, mostly on styling, colors, getting the logo to appear in the corner of the site, as well as some light and mostly tasteful animations. It is still sort of bare-bones looking but ehh. Design is not my thing for sure. 
 
-1107 - Satisfied with the basic styling, I am going to start to work on my stretch goals, which include: A header/footer to make it look like a real website, getting state to update the cards automatically when a new poll is submitted, a way to delete a poll from the front end, a way to vote on the front end and have that passed to the back end. I doubt I will get to many of thses but I know I won't get to my original stretch goals of user login functionality. 
+1107 - Satisfied with the basic styling, I am going to start to work on my stretch goals, which include: A header/footer to make it look like a real website, getting state to update the cards automatically when a new poll is submitted, a way to delete a poll from the front end, a way to vote on the front end and have that passed to the back end. I doubt I will get to many of these but I know I won't get to my original stretch goals of user login functionality. 
+
+1700 - Final update from the original project timeline: I updated some styling, added a dummy login in the header, and a few other small things. I'm excited to keep iterating on this project in the coming weeks and months.

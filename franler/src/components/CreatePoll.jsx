@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react';
+import PollsDisplay from './PollsDisplay.jsx';
 
 function CreatePoll() {
   const [title, setTitle] = useState('');
